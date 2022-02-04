@@ -9,7 +9,7 @@ const config = {
   title: "Web Tutorial",
   tagline: "Web are easy",
   url: "https://idealjs.github.io",
-  baseUrl: "/web-tutorial/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
