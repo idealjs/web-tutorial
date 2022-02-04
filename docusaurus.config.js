@@ -24,11 +24,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/idealjs/web-tutorial",
+          editUrl: "https://github.com/idealjs/web-tutorial/tree/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/idealjs/web-tutorial",
+          editUrl: "https://github.com/idealjs/web-tutorial/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
