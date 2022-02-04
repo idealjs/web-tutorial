@@ -15,7 +15,8 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "idealjs",
   projectName: "web-tutorial",
-
+  trailingSlash: false,
+  
   presets: [
     [
       "classic",
