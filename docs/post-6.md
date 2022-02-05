@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # JS Hello World
 
 继续学习 Hello World。

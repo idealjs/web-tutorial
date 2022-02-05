@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # CSS3 快速入门
 
 上一节，入门了 HTML5。了解了 HTML5 的 Hello World 后，我们可以开始学习 CSS3 了。
