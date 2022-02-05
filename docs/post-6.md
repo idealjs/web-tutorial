@@ -8,7 +8,7 @@ Web 由 HTML5 + CSS3 + JS 构成。本节将介绍 JS 的 Hello World。
 
 本篇的完整代码，可以在这里找到：
 
-- examples/post-6/hello.html
+- [examples/post-6/hello.html](https://github.com/idealjs/web-tutorial/blob/main/examples/post-6/hello.html)
 
 ## 查看这个网页
 
