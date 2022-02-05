@@ -1,0 +1,76 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Hello Node JS
+
+假如安装好了 Node，如何验证安装好了？或者我怎么使用它？
+
+## 验证是否安装成功
+
+打开一个控制台
+
+<Tabs
+  defaultValue="win"
+  values={[
+    { label: "win", value: "win" },
+    { label: "ubuntu", value: "ubuntu" },
+    { label: "mac", value: "mac" },
+  ]}
+>
+  <TabItem value="win">
+  在开始菜单上右键，点击windows 终端（管理员）
+
+  </TabItem>
+  <TabItem value="ubuntu">
+  Ctrl+Alt+T
+
+  </TabItem>
+  <TabItem value="mac">
+  找到terminal app，然后打开。
+
+  </TabItem>
+</Tabs>
+
+输入
+
+```
+node -v
+```
+
+然后你会看到你安装的 node 版本。
+
+例如，我的版本
+
+```
+v14.18.0
+```
+
+## 使用
+
+> 用最少的知识量，让程序完整的跑起来，就是 Hello World 的目的。
+
+本篇的完整代码，可以在这里找到：
+
+- [examples/post-9/hello.js](https://github.com/idealjs/web-tutorial/blob/main/examples/post-9/hello.js)
+
+在有 hello.js 的文件夹下打开控制台（在文件夹下按住 shift 鼠标右击），并且输入
+
+```sh
+node hello.js
+```
+
+如果碰到了如下错误，那么可能是当前文件夹下没有 hello.js 这个文件。
+
+```
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'xxx/xxx/hello.js'
+```
+
+正常运行的话，会显示如下
+
+```
+hello world
+```
