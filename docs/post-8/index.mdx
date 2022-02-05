@@ -1,0 +1,56 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Node 入门
+
+在继续学习前端的库之前，我们需要打断一下。
+
+我们需要一些补充知识做我们的手脚架。
+
+前文提到过，现代化的前端工程通过构建的方式，得到我们需要的产物。
+
+而构建怎么执行，执行在哪里也是一个复杂的问题。
+
+## 构建如何执行
+
+- 语言语法转换
+
+  如：typescript 转换为 javascript。高级语言特性转换为兼容语句。
+
+- 资源打包
+
+  如：图片，样式，打包成文件资源。
+
+## 构建的执行位置
+
+- 人工执行
+  简单的单机部署网站，我们可以使用人工部署的方式。
+
+  任选一台机器，进行构建，然后将构建产物复制到提供对外服务的服务器上。
+
+- 自动执行
+
+  由特殊的构建软件监听，然后在配置好机器/容器中构建。
+
+## 本地构建环境搭建
+
+两种方案都需要一个机器，或者环境来构建。
+
+- 安装 Node
+
+  node 的版本很多，入门建议使用 官网的 LTS 版本。
+
+  ![node 官网截图](./post-8-1.png)
+
+<Tabs
+  defaultValue="win"
+  values={[
+    { label: "win", value: "win" },
+    { label: "linux", value: "linux" },
+    { label: "mac", value: "mac" },
+  ]}
+>
+  <TabItem value="win"></TabItem>
+  <TabItem value="linux"></TabItem>
+  <TabItem value="mac"></TabItem>
+</Tabs>
