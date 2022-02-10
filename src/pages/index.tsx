@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
@@ -8,17 +8,31 @@ import styles from "./index.module.css";
 const HomePageHeader = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs">
-            Web Tutorial - 5min ⏱️
-          </Link>
+    <Fragment>
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+        <div className="container">
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="/docs">
+              快速开始 - 5min ⏱️
+            </Link>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+        <div className="container">
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/idealjs/web-tutorial/discussions"
+            >
+              参与讨论
+            </Link>
+          </div>
+        </div>
+      </header>
+    </Fragment>
   );
 };
 
