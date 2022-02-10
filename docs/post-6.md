@@ -40,7 +40,7 @@ Web 由 HTML5 + CSS3 + JS 构成。本节将介绍 JS 的 Hello World。
 </html>
 ```
 
-我们需要关注的是如下代码块，其余部分是 HTML5 的标签，想了解的话，可以查看 `docs/post-4.md` 。
+我们需要关注的是如下代码块，其余部分是 HTML5 的标签，想了解的话，可以查看[HTML5 Hello World](https://idealjs.github.io/web-tutorial/docs/post-4)。
 
 ```html
 <script>
@@ -61,5 +61,3 @@ Web 由 HTML5 + CSS3 + JS 构成。本节将介绍 JS 的 Hello World。
 - `() => { alert("hello world"); }` 称作匿名的箭头函数，具体可以查阅 JS 文档。
 
 - `alert("hello world");` 是 JS 调用了浏览器提供的函数 `alert` 其中参数，我们填入了 `"hello world"` 字符串
-
-
