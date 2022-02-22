@@ -1,0 +1,97 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Git
+
+git 是一个代码管理工具，可以追踪代码的提交记录。这是每个软件工程师必备工具，没有之一。
+
+## 安装
+
+工欲善其事，必先利其器。
+
+<Tabs
+  defaultValue="win"
+  values={[
+    { label: "win", value: "win" },
+    { label: "ubuntu", value: "ubuntu" },
+    { label: "mac", value: "mac" },
+  ]}
+>
+  <TabItem value="win">
+  下载地址 https://git-scm.com/
+
+  </TabItem>
+  <TabItem value="ubuntu">
+  大部分linux系统都自带git，打开控制台输入 git --version 查看 git 版本
+
+  </TabItem>
+  <TabItem value="mac">
+  mac系统自带git，打开控制台输入 git --version 查看 git 版本
+
+  </TabItem>
+</Tabs>
+
+## 使用
+
+通常一个项目会对应一个 git 仓库，每次提交代码都会记录到 git 仓库中，这样就可以追踪代码的提交记录。
+
+用图形化的工具来看的话，会呈现出如下图
+![预览效果](./post-1-1.png)
+
+### 克隆
+
+克隆可以理解为将代码仓库复制了一份。
+
+以此代码仓库为例，实际操作一下
+
+```
+git clone https://github.com/idealjs/web-tutorial.git
+```
+
+后面的地址我们可以在 github 上看到，但是需要选用 https 的地址。
+
+因为 ssh 地址需要做一些配置，所以先用 https 的地址克隆。
+
+被克隆的仓库，我们通常叫他 **远程仓库**。或者源仓库。
+
+![预览效果](./post-1-2.png)
+
+### 拉取代码
+
+刚克隆下的代码可能是最新的，但是过一段时间如果有人推送了新的提交到远程仓库，那么本地仓库如何同步远程仓库呢。
+
+输入如下命令
+
+```
+git pull
+```
+
+### 推送代码
+
+修改后的代码，想要共享给其他人，要如何做？
+
+在 git 中，可以推送的东西只有修改记录。
+
+而修改记录是不会因为文件被更改，就自动生成的，我们需要通过 git 工具把文件修改记录下来。
+
+用如下命令把所有的修改都记录下。
+
+```
+git add .
+```
+
+然后提交到本地仓库
+
+```
+git commit -m "test"
+```
+
+最后把新的提交记录推送到远程仓库
+
+```
+git push
+```
