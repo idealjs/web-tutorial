@@ -11,3 +11,7 @@ sidebar_position: 2
 全默认选项安装
 
 > 安装完成重启电脑
+
+## 为什么需要 nodejs
+1. nodejs 可以用来启动简单的 http 服务
+2. nodejs 可以用来构建模块化的工程
