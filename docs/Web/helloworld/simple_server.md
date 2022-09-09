@@ -7,5 +7,5 @@ sidebar_position: 2
 在 `examples/hello-world/index.html` 文件夹下输入
 
 ```
-npx http
+npx http-server
 ```
