@@ -4,8 +4,14 @@ sidebar_position: 2
 
 # 简单的服务
 
-在 `examples/hello-world/index.html` 文件夹下输入
+打开控制台
+
+![打开控制台](./open_terminal.png)
+
+输入命令
 
 ```
 npx http-server
 ```
+
+![输入命令](./start_http_server.png)

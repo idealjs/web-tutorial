@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 第一个页面（hello world）
 
-```html title="examples/hello-world/index.html"
+```html title="hello-world/index.html"
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +18,8 @@ sidebar_position: 1
   </body>
 </html>
 ```
+
+![预览效果](./open_hello_world.png)
 
 将文件在浏览器中打开，你将会看到 `hello world` 字样
 
