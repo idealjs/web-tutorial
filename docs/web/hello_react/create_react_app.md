@@ -1,4 +1,8 @@
-# 创建 React 工程
+---
+sidebar_position: 1
+---
+
+# 创建工程
 
 使用 [Create React App](https://create-react-app.dev/docs/getting-started) 脚手架工具
 
