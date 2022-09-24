@@ -12,12 +12,6 @@ npx create-react-app
 
 > 受网络影响，这一步可能会等待较长时间。
 
-或者使用
-
-```
-npx create-react-app --registry=https://registry.npmmirror.com
-```
-
 ![输入命令](./enter_command.png)
 
 ![预览图](./created_react.png)
