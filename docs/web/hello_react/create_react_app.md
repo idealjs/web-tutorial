@@ -11,7 +11,7 @@ sidebar_position: 1
 继续之前使用过的 hello_world 项目，输入命令
 
 ```
-npx create-react-app
+npx create-react-app my-app
 ```
 
 > 受网络影响，这一步可能会等待较长时间。
