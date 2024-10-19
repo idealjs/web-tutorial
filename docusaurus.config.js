@@ -9,12 +9,12 @@ const config = {
   title: "Web Tutorial",
   tagline: "Web are easy",
   url: "https://idealjs.github.io",
-  baseUrl: "/web-tutorial/",
+  baseUrl: "/full-stack-tutorial/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "idealjs",
-  projectName: "web-tutorial",
+  projectName: "full-stack-tutorial",
   trailingSlash: false,
   
   presets: [
@@ -24,11 +24,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/idealjs/web-tutorial/tree/main/",
+          editUrl: "https://github.com/idealjs/full-stack-tutorial/tree/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/idealjs/web-tutorial/tree/main/",
+          editUrl: "https://github.com/idealjs/full-stack-tutorial/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -54,7 +54,7 @@ const config = {
             label: "GET STARTED",
           },
           {
-            href: "https://github.com/idealjs/web-tutorial",
+            href: "https://github.com/idealjs/full-stack-tutorial",
             label: "GitHub",
             position: "right",
           },
