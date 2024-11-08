@@ -39,7 +39,7 @@ const HomePageHeader = () => {
 const Home = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Web Tutorial">
+    <Layout title={`Hello from ${siteConfig.title}`} description="全栈教程">
       <HomePageHeader />
     </Layout>
   );

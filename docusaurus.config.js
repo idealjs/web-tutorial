@@ -51,7 +51,7 @@ const config = {
             type: "doc",
             docId: "index",
             position: "left",
-            label: "GET STARTED",
+            label: "快速开始",
           },
           {
             href: "https://github.com/idealjs/full-stack-tutorial",
