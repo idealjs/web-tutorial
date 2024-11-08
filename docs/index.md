@@ -24,3 +24,4 @@ sidebar_position: 1
     - 单独链接到快速创建命令篇。
 2. 按步引入 react 包。
 3. 快速创建命令，与执行效果。
+4. 工具篇，添加 vscode git graph 插件的介绍
