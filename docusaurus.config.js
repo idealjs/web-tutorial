@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Web Tutorial",
-  tagline: "Web are easy",
+  title: "全栈工程师教程",
+  tagline: "轻松的学习",
   url: "https://idealjs.github.io",
   baseUrl: "/full-stack-tutorial/",
   onBrokenLinks: "throw",
@@ -41,7 +41,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Web Tutorial",
+        title: "全栈工程师教程",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
